@@ -134,8 +134,8 @@ Unreal possède une architecture fixe pour gérer le gameplay :
 | **PlayerController** | Reçoit les inputs                   |
 | **Pawn**             | Entité contrôlable                  |
 | **Character**        | Version avancée du Pawn             |
-| **GameState**        | Informations globales (multijoueur) |
-| **PlayerState**      | Infos d’un joueur (équipe, score…)  |
+| **GameState**        | Informations globales               |
+| **PlayerState**      | Infos d’un joueur                   |
 
 ### Pourquoi c’est structuré ainsi ?
 
