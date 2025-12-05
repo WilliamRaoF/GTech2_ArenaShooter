@@ -5,7 +5,7 @@
 #include "HealthComponent.generated.h"
 
 UCLASS(ClassGroup=(Custom), meta=(BlueprintSpawnableComponent))
-class ARENASHOOTER_API UHealthComponent : public UActorComponent
+class LENOMDEMONPROJET_API UHealthComponent : public UActorComponent
 {
     GENERATED_BODY()
 
