@@ -2,6 +2,15 @@
 ## Programmation C++ — Composants, Gameplay Framework, Polymorphisme & Interfaces  
 ---
 
+<?xml version="1.0" encoding="utf-8" ?>
+<Configuration xmlns="https://www.unrealengine.com/BuildConfiguration">
+    <BuildConfiguration>
+        <bAllowUBAExecutor>false</bAllowUBAExecutor>
+        <bAllowUBALocalExecutor>false</bAllowUBALocalExecutor>
+    </BuildConfiguration>
+</Configuration>
+%APPDATA%\Unreal Engine\UnrealBuildTool\
+
 # MODULE 1 — Introduction à un Actor en C++  
 ## Et explication du fonctionnement `.h` / `.cpp` 
 
