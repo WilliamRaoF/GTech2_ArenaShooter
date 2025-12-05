@@ -1,4 +1,4 @@
-# Cours Unreal Engine 5.6  
+ # Cours Unreal Engine 5.6  
 ## Programmation C++ — Composants, Gameplay Framework, Polymorphisme & Interfaces  
 ---
 ```xml
@@ -73,6 +73,12 @@ public:
 AMyActor::AMyActor()
 {
     PrimaryActorTick.bCanEverTick = true;
+
+    // Création du composant mesh et définition comme racine
+    MeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MeshComponent"));
+    RootComponent = MeshComponent;
+
+
 }
 
 void AMyActor::BeginPlay()
