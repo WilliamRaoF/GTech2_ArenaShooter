@@ -47,6 +47,9 @@ Contient :
 
 ## Fichier `.h`
 ```cpp
+
+#include "Components/StaticMeshComponent.h"
+
 UCLASS()
 class MYPROJECT_API AMyActor : public AActor
 {
