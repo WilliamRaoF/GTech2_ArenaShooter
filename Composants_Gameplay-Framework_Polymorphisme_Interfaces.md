@@ -58,6 +58,10 @@ public:
 protected:
     virtual void BeginPlay() override;
 
+    // Mesh principale de l'acteur
+    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+    UStaticMeshComponent* MeshComponent;
+
 public:
     virtual void Tick(float DeltaTime) override;
 };
